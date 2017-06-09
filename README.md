@@ -17,7 +17,7 @@ I use a Google Cloud VM for the code I test. I borrowed the majority of the setu
   - `bash install-gpu.sh`
     - follow prompts
   - verify the GPU is running `nvidia-smi`
-    - (for some reason the script doesn't always install cuda follow directions here: https://cloud.google.com/compute/docs/gpus/add-gpus#install-driver-manual also seen below)
+    - (for some reason the script doesn't always install cuda follow directions [here](https://cloud.google.com/compute/docs/gpus/add-gpus#install-driver-manual) also seen below)
        - curl -O http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_8.0.61-1_amd64.deb
        - sudo dpkg -i cuda-repo-ubuntu1604_8.0.61-1_amd64.deb
        - sudo apt-get update
